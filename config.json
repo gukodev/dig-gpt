@@ -1,0 +1,10 @@
+{
+    "webUI": true,
+    "gpt": {
+        "maxTokens": 24
+    },
+    "emojiCount": {
+        "min": 2,
+        "max": 5
+    }
+}

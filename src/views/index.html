@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>socket</title>
+        <link rel="stylesheet" href="/style.css" />
+        <script src="/vendor/socket.io.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="res-container">
+                <div class="ping-container">
+                    <span id="ping">0ms</span>
+                </div>
+                <div id="res"></div>
+            </div>
+            <form id="input-form">
+                <input
+                    type="text"
+                    name="emoji-input"
+                    id="emoji-input"
+                    placeholder="insert emojis"
+                    autocomplete="off"
+                />
+                <button id="send" type="submit">send</button>
+            </form>
+        </div>
+        <script src="/main.js"></script>
+    </body>
+</html>
